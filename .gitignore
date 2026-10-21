@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos baixados pelo programa
+audios/
+*.mp3
+*.m4a
+*.wav
+*.opus
+*.webm
+
+# Logs
+*.log
+
