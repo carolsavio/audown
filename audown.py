@@ -1,6 +1,7 @@
 import yt_dlp
 import time
 import pyfiglet
+import os
 from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Prompt
@@ -52,4 +53,5 @@ def input_link():
 if __name__ == "__main__":
     header()
     link = input_link()
+    os.makedirs("audios", exist_ok=True)
     download_audio(link)
