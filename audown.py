@@ -51,6 +51,5 @@ def input_link():
 
 if __name__ == "__main__":
     header()
-    #link = input("Paste the youtube link: ").strip()
-    input_link()
-    download_audio(input_link)
+    link = input_link()
+    download_audio(link)
